@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       fontSize: {
-        '10xl': '430px',
-        '12xl' : '220px',
-        "11xl" : '450px',
+        '10xl': '27rem',
+        '12xl' : '13rem',
+        "11xl" : '29rem',
       },
       spacing: {
-        '512' : '420px',
+        '512' : '27rem',
       },
     },
   },
