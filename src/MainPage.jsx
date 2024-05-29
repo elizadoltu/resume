@@ -3,32 +3,34 @@ import CustomCursor from "./utils/CustomCursor";
 import profilePictureLanding from "./assets/profile-image-landing.png";
 import profilePictureContact from "./assets/profile-image-contact.png";
 import "./index.css";
+import "./custom/responsive-style.css";
 
 const MainApp = () => {
   return (
-    <div className="w-full">
+    <div className="w-full app-container">
       <CustomCursor />
-      <div className="font-extrabold text-10xl flex justify-center items-start -mt-52">
+      <div className="font-extrabold text-10xl flex justify-center items-start -mt-52 header-title-container">
         <h1>eliza.doltu</h1>
       </div>
-      <div className="flex -mt-40">
-        <div>
+      <div className="flex -mt-40 container-information-landing">
+        <div className="profile-image-landing">
           <img
             src={profilePictureLanding}
             alt="profile picture of eliza doltu"
+            className="profile-image-landing"
           />
         </div>
         <div className="flex flex-col justify-between">
-          <div className="flex text-xl justify-between font-extralight">
-            <div>
+          <div className="flex text-xl justify-between font-extralight subtitle-container-landing">
+            <div className="subtitle-container-first">
               <p>web designer -</p>
             </div>
-            <div className="ml-96">
+            <div className="ml-96 subtitle-container-second">
               <p>web developer</p>
               <p>student</p>
             </div>
           </div>
-          <div className="text-2xl ml-2 font-light">
+          <div className="text-2xl ml-2 font-light personal-info-container">
             <p className="text-xs">+</p>
             <p>16/07/2003</p>
             <p>From Romania, Iasi</p>
@@ -37,11 +39,11 @@ const MainApp = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-44 items-start justify-between">
-        <div className="font-extrabold text-5xl">
+      <div className="flex mt-44 items-start justify-between subcategory-container">
+        <div className="font-extrabold text-5xl subcategory-title">
           <h2>education</h2>
         </div>
-        <div className="-ml-32">
+        <div className="-ml-32 category-list">
           <p>“Alexandru Ioan-Cuza” University, Iasi</p>
           <p>Computer Science</p>
           <p>2022-2025</p>
@@ -52,11 +54,11 @@ const MainApp = () => {
           <p>2018-2022</p>
         </div>
       </div>
-      <div className="flex mt-36 items-start justify-between">
-        <div className="font-extrabold text-5xl">
+      <div className="flex mt-36 items-start justify-between subcategory-container">
+        <div className="font-extrabold text-5xl subcategory-title">
           <h2>experience</h2>
         </div>
-        <div className="-ml-36">
+        <div className="-ml-36 category-list">
           <div>
             <p>Technical Team Member STIM DC</p>
             <p>2022-2025</p>
@@ -78,11 +80,11 @@ const MainApp = () => {
           </div>
         </div>
       </div>
-      <div className="mt-36 flex">
-        <div className="font-extrabold text-5xl">
+      <div className="mt-36 flex subcategory-container">
+        <div className="font-extrabold text-5xl subcategory-title">
           <h2>certificates</h2>
         </div>
-        <div className="ml-512">
+        <div className="ml-512 category-list">
           <p>Cambridge English - B2</p>
           <p>Issued: Apr 2022</p>
           <p>Accreditation No. : 501/1432/2</p>

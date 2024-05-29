@@ -1,0 +1,57 @@
+@media screen and (max-width: 768px) {
+    
+    .app-container {
+        overflow-x: hidden;
+    }
+
+    .header-title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -45px;
+        font-size: 90px;
+    }
+
+    .container-information-landing {
+        margin-top: -35px;
+    }
+
+    .profile-image-landing {
+        width: 100px;
+        height: 100px;
+    }
+
+    .subtitle-container-landing {
+        display: flex;
+        justify-content: flex-between;
+    }
+
+    .subtitle-container-first {
+        font-size: 15px;
+    }
+
+    .subtitle-container-second {
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    .personal-info-container {
+        font-size: 20px;
+        margin-top: 45px;
+        margin-left: -100px;
+    }
+
+    .subcategory-title {
+        font-size: 30px;
+    }
+
+    .category-list {
+        margin: 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .subcategory-container {
+        flex-direction: column;
+    }
+}
